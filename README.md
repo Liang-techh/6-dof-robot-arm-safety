@@ -7,7 +7,7 @@ The core contribution is a rigorously verified safety controller that guarantees
 ![Visualization Preview](https://github.com/user-attachments/assets/placeholder-image-url)
 *(Note: You can add a screenshot here after uploading)*
 
-## 📂 Project Structure
+##  Project Structure
 
 - **`visualize_6dof_arm.m`**: **Start Here!** Interactive 3D visualization tool.
   - Run this in MATLAB to see the arm in action.
@@ -18,7 +18,7 @@ The core contribution is a rigorously verified safety controller that guarantees
   - Uses **YALMIP** and **MOSEK** to solve the SOS optimization problem.
   - Generates the `.mat` results file.
 
-## 🚀 How to Run
+##  How to Run
 
 ### Prerequisites
 - **MATLAB** (Tested on R2016b+).
@@ -37,7 +37,7 @@ The core contribution is a rigorously verified safety controller that guarantees
     - **`Inject Disturbance`**: Click to test robustness.
     - **`Stop`**: Pause to manually control joints with sliders.
 
-## 🔬 Scientific Details
+##  Scientific Details
 
 - **Dynamics**: Linearized Euler-Lagrange dynamics for 6 joints (12 states).
 - **Safety Verification**:
@@ -45,9 +45,10 @@ The core contribution is a rigorously verified safety controller that guarantees
     - **SOS Programming**: Used to find the largest level set $\mathcal{E} = \{x | V(x) \le \eta^*\}$ where $\dot{V}(x) < 0$ along boundaries.
     - **Result**: Certified safety radius $\eta^* = 0.80$.
 
-## 🎥 Visualization Features
+##  Visualization Features
 
 The right-side panel in the visualization tool shows real-time 2D projections of the 12D state space (e.g., $q_1$ vs $q_2$). The **red dot** (current state) is mathematically guaranteed to stay within the **black ellipse** (safety boundary).
 
 ---
-*Created by [Your Name]*
+zhiwei liang*
+
