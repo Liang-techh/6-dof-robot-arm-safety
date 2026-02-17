@@ -4,8 +4,6 @@ This project implements a **Sum-of-Squares (SOS)** based safety verification and
 
 The core contribution is a rigorously verified safety controller that guarantees the robotic arm remains within a computed safety region (Lyapunov level set) despite disturbances and model uncertainties.
 
-![Visualization Preview](https://github.com/user-attachments/assets/placeholder-image-url)
-*(Note: You can add a screenshot here after uploading)*
 
 ##  Project Structure
 
@@ -51,4 +49,5 @@ The right-side panel in the visualization tool shows real-time 2D projections of
 
 ---
 zhiwei liang*
+
 
